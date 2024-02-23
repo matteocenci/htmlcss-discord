@@ -7,7 +7,7 @@
 }
 
 img{
-    
+    max-width: 100%;
 }
 
 /* COMMON */
@@ -26,6 +26,12 @@ h1{
     font-size: 40px;
     
 }
+
+h2{
+    color: #000000;
+    font-size: 35px;
+    text-align: left;
+}
 a{
     color: #d3d3d3;
     text-decoration: none;
@@ -37,6 +43,10 @@ a{
 
 button:active{
     background-color: #808080;
+}
+
+.description{
+    margin: 20px 0;
 }
 
 
@@ -143,37 +153,39 @@ button:active{
 /* Second and Fourth Block */
 .second-block{
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-color: #d3d3d3;
+    background-color: #f5f5f5;
 }
 
 .second-content{
     width: 50%;
-    height: 300px;
+    
     display: flex;
-    border: 3px dashed #808080;
+    /* border: 3px dashed #808080; */
 
     
 }
 .first-box{
     width: 60%;
-    border-right: 2px dashed #000000;
+    /* border-right: 2px dashed #000000; */
+    background-size: cover;
     
     
     
-    background-color: #f08080;
+    /* background-color: #f08080; */
 }
 
 .second-box{
     width: 40%;
-    border-left: 2px dashed #000000;
+    /* border-left: 2px dashed #000000; */
+    font-family: Arial;
     
 
-    background-color: #87cefa;
+    /* background-color: #87cefa; */
 }
 /* /Second and Fourth Block */
 
@@ -185,7 +197,7 @@ button:active{
     justify-content: center;
     align-items: center;
 
-    background-color: #f5f5f5;
+    background-color: #808080;
 }
 
 .third-box{
