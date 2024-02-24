@@ -348,6 +348,19 @@ button:active{
     margin-right: 10px;
 }
 
+.socials-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 25px 0;
+    font-size: 20px;
+    color: #f5f5f5;
+}
+
+.fa-brands{
+    margin: 0 20px 0 0;
+}
+
 .small-box{
     width: 15%;
     border: 1px dashed #f5f5f5;
