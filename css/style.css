@@ -15,7 +15,7 @@ img{
 /* COMMON */
 /* Header */
 hr{
-    border: 1px solid #d3d3d3;
+    border: 1px solid #7089DA;
     height: 2px;
     
 }
@@ -34,6 +34,7 @@ h2{
     font-size: 35px;
     text-align: left;
 }
+
 a{
     color: #f6f6f6;
     text-decoration: none;
@@ -377,6 +378,7 @@ button:active{
 
 .small-box li{
     margin-bottom: 20px;
+    padding-top: 10px;
     font-size: 14px;
     font-family: Arial;
     font-weight: 600;
@@ -411,16 +413,21 @@ button:active{
     
     
 
-    background-color: #7FFFD4;
+    /* background-color: #7FFFD4; */
 }
 
 .logo-bottom{
-    background-color: #f08080;
-    border: 1px dashed #000000;
+    /* background-color: #f08080;
+    border: 1px dashed #000000; */
 }
 
 .bottom-button{
-    background-color: #f08080;
+    margin: 20px 20px;
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #7289DA;
+    color: #F6F6F6;
 }
 /* /Footer */
 
